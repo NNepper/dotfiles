@@ -4,9 +4,10 @@
     casks = [
       "firefox"
       "cursor"
-      "duckduckgo"
       "displaylink"
       "spotify"
+      "tailscale" # Tailscale Mesh VPN 
+      "windows-app" # Microsoft Remote Desktop
       "docker" # Docker Desktop
       "font-fira-code-nerd-font" # Needed for alacritty
       "anaconda"
