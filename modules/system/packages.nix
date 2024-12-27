@@ -9,7 +9,6 @@
     git
     gnupg
     gh
-    # bitwarden-cli
 
     # Apps
     ## Default

@@ -17,27 +17,27 @@
   {
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#goddard
-    darwinConfigurations."goddard" = nix-darwin.lib.darwinSystem {
+    darwinConfigurations."MacBook-Pro-de-Nathan" = nix-darwin.lib.darwinSystem {
       modules = [
         ./modules
         nixvim-config.darwinModules.default
         home-manager.darwinModules.home-manager {
-          users.users.romaingrx = {
-            name = "romaingrx";
-            home = "/Users/romaingrx";
+          users.users.nathannepper = {
+            name = "nathannepper";
+            home = "/Users/nathannepper";
           };
           home-manager = {
             useGlobalPkgs = true;
             useUserPackages = true;
             backupFileExtension = "bckp";
-            users.romaingrx = import ./home;
+            users.nathannepper = import ./home;
           };
         }
         nix-homebrew.darwinModules.nix-homebrew {
           nix-homebrew = {
             enable = true;
             enableRosetta = true;
-            user = "romaingrx";
+            user = "nathannepper";
           };
         }
       ];

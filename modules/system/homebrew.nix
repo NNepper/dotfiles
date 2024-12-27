@@ -7,13 +7,11 @@
       "duckduckgo"
       "displaylink"
       "spotify"
-      "bitwarden"
       "docker" # Docker Desktop
       "font-fira-code-nerd-font" # Needed for alacritty
       "anaconda"
     ];
     brews = [
-      "bitwarden-cli"
       "ffmpeg"
     ];
     

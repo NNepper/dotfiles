@@ -29,7 +29,7 @@
   shellAliases = {
     ll = "ls -l";
     la = "ls -la";
-    update = "nix run nix-darwin -- switch --flake ~/.dotfiles";
+    update = "nix run nix-darwin -- switch --flake $HOME/projects/personal/dotfiles";
   };
 
   history = {

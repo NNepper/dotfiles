@@ -19,7 +19,6 @@
         InitialKeyRepeat = 12;
         ApplePressAndHoldEnabled = false;
         AppleInterfaceStyleSwitchesAutomatically = true;
-        "com.apple.mouse.tapBehavior" = 1; # Is not working with trackpad
         _HIHideMenuBar = false;
       };
       dock = {
@@ -35,8 +34,8 @@
           "${pkgs.raycast}/Applications/Raycast.app"
         ];
         persistent-others = [
-          "/Users/romaingrx/Downloads"
-          "/Users/romaingrx/Pictures/screenshots"
+          "$HOME/Downloads"
+          "$HOME/Pictures/screenshots"
         ];
       };
       finder = {
@@ -54,7 +53,7 @@
         LoginwindowText = "Hi-tech, barking, Swiss army knife";
       };
       screencapture = {
-        location = "/Users/romaingrx/Pictures/screenshots";
+        location = "$HOME/Pictures/screenshots";
       };
       screensaver = {
         askForPasswordDelay = 0;

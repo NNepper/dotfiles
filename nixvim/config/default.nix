@@ -3,7 +3,7 @@
   config = {
     globals.mapleader = " "; # Sets leader key to space
     
-    options = {
+    opts = {
       number = true;         # Show line numbers
       relativenumber = true; # Show relative line numbers
     };
