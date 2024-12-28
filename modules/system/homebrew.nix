@@ -8,6 +8,7 @@
       "spotify"
       "tailscale" # Tailscale Mesh VPN 
       "windows-app" # Microsoft Remote Desktop
+      "aldente" # Battery management
       "docker" # Docker Desktop
       "font-fira-code-nerd-font" # Needed for alacritty
       "anaconda"

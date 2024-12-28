@@ -32,10 +32,7 @@
           "/System/Applications/Mail.app"
           "/System/Applications/Calendar.app"
           "${pkgs.raycast}/Applications/Raycast.app"
-        ];
-        persistent-others = [
-          "$HOME/Downloads"
-          "$HOME/Pictures/screenshots"
+          "/System/Applications/Cursor.app"
         ];
       };
       finder = {
@@ -53,7 +50,7 @@
         LoginwindowText = "Hi-tech, barking, Swiss army knife";
       };
       screencapture = {
-        location = "$HOME/Pictures/screenshots";
+        location = "$HOME/Images/screenshots";
       };
       screensaver = {
         askForPasswordDelay = 0;

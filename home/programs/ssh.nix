@@ -7,9 +7,4 @@
       identityFile = "~/.ssh/github";
     };
   };
-
-  extraConfig = ''
-    UseKeychain yes
-    AddKeysToAgent yes
-  '';
 }
