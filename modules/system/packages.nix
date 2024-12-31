@@ -9,6 +9,7 @@
     git
     gnupg
     gh
+    nmap
 
     # Apps
     ## Default
